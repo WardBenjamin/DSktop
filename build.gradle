@@ -4,9 +4,11 @@ buildscript {
     repositories {
         mavenLocal()
         mavenCentral()
+        maven { url "https://jitpack.io" }
     }
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        compile 'com.github.WilliamAHartman:Jamepad:1.1'
     }
 }
 
