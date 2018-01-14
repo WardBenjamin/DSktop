@@ -36,7 +36,7 @@ package org.firstinspires.ftc.robotcore.internal.ui;
  * A *typed* integer so that we can more easily keep track of things
  */
 public enum GamepadUser {
-    ONE(1), TWO(2);
+    UNASSOCIATED(-1), ONE(1), TWO(2);
 
     public byte id;
 
